@@ -59,7 +59,8 @@ header {
   outline: none !important;
   color: #2196f3;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .black-link:visited {color: red;} */
 .contact {
@@ -77,7 +78,8 @@ header {
   outline: none !important;
   color: #2196f3;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-logo {
   color: #ffffff;
@@ -349,7 +351,8 @@ header {
   outline: none !important;
   fill: #ffffff;
   background: #2196f3;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 5s cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .end {
@@ -519,6 +522,8 @@ header {
 .close-btn:hover {
   color: #ffffff;
   background: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-last {
   border: 1px solid rgba(255, 255, 255, 0.3);
